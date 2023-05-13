@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bryce Cooper - Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="./images/me-transparent-cropped.png" alt="Bryce Cooper" class="profile-image">
+      <div class="portfolio-info">
+        <h1 class="portfolio-title">Portfolio</h1>
+        <p class="portfolio-description">A showcase of my projects and skills</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#top"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#projects-section"><i class="fas fa-code"></i> Projects</a></li>
+        <li><a href="#contact-section"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+      <section id="intro" class="intro-section">
+        <div class="intro-video">
+          <video autoplay loop muted>
+            <source src="./videos/coding-digital-background-2022-07-14-05-04-50-utc.mov" type="video/mp4">
+            <!-- Add additional <source> elements for different video formats if needed -->
+          </video>
+        </div>
+        <div class="intro-container">
+          <h2 class="intro-title"><i class="fas fa-hand-paper"></i> Hi, I'm Bryce Cooper!</h2>
+          <p class="intro-description">Let's explore your needs:</p>
+          <div class="question">
+            <input type="checkbox" id="designCheckbox">
+            <label for="designCheckbox">Web design</label>
+          </div>
+          <div class="question">
+            <input type="checkbox" id="softwareCheckbox">
+            <label for="softwareCheckbox">Web development</label>
+          </div>
+          <div class="question">
+            <input type="checkbox" id="mobileCheckbox">
+            <label for="mobileCheckbox">Mobile app development</label>
+          </div>
+          <div class="question">
+            <input type="checkbox" id="seoCheckbox">
+            <label for="seoCheckbox">SEO improvements</label>
+          </div>
+          <div class="question">
+            <input type="checkbox" id="maintenanceCheckbox">
+            <label for="maintenanceCheckbox">Web maintenance</label>
+          </div>
+          <a href="#contact" class="cta-button hidden" id="contactButton"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
+      </section>
+
+    <div class="separator" id="social-section"></div>
+
+    <div class="social-media-section">
+      <a href="https://www.linkedin.com/in/bryce-cooper99/" target="_blank" class="social-media-link linkedin">
+        <img src="./images/socials/linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/BryceCoop99" target="_blank" class="social-media-link github">
+        <img src="./images/socials/github.png" alt="GitHub">
+      </a>
+      <a href="https://www.fiverr.com/bryce_cooper" target="_blank" class="social-media-link fiverr">
+        <img src="./images/socials/fiverr.png" alt="Fiverr">
+      </a>
+      <a href="https://www.reddit.com/user/brycedcoop" target="_blank" class="social-media-link reddit">
+        <img src="./images/socials/reddit.png" alt="Reddit">
+      </a>
+      <a href="https://www.youtube.com/@brycecooper1/featured" target="_blank" class="social-media-link youtube">
+        <img src="./images/socials/youtube.png" alt="YouTube">
+      </a>
+    </div>
+    
+    <div class="separator" id="projects-section"></div>
+
+    <section id="projects" class="section-projects">
+      <h2 class="projects-heading"><i class="fas fa-code projects-icon"></i> Projects</h2>
+      <div class="tab-list">
+        <ul class="project-tabs">
+          <li data-project="project1" class="active"><i class="fas fa-rocket"></i> AstroLaunch Systems</li>
+          <li data-project="project2"><i class="fas fa-briefcase"></i> Portfolio Website</li>
+          <!-- <li data-project="project3"><i class="fas fa-mobile-alt"></i> Mobile App Development</li>
+          <li data-project="project4"><i class="fas fa-desktop"></i> Corporate Website Redesign</li>
+          <li data-project="project5"><i class="fas fa-cogs"></i> Custom Web Application</li> -->
+        </ul>
+      </div>      
+      <div class="projects-container">
+        <div id="project1" class="project-card active">
+          <h3 class="project-card-title"><i class="fas fa-rocket project-card-title-icon"></i> AstroLaunch Systems</h3>
+          <div class="project-gallery">
+            <img src="./images/portfolio/astrolaunch1.png" alt="Project 1 Image 1" loading="lazy">
+            <img src="./images/portfolio/astrolaunch2.png" alt="Project 1 Image 2" loading="lazy">
+          </div>
+          <a href="https://mellow-meerkat-678fcd.netlify.app/" class="view-button" target="_blank">Visit AstroLaunch Systems</a>
+          <h3 class="project-card-title"><i class="fas fa-book"></i> Story</h3>
+          <p class="project-card-story">From humble beginnings with little background in space technology, I embarked on an incredible journey to develop the AstroLaunch Services website. The challenges I faced along the way were daunting, from crafting complex code to mastering intricate CSS styles. However, I embraced each obstacle as an opportunity for growth and innovation.</p>
+          <p class="project-card-story">One of the key aspects of this project was to ensure the codebase was organized and maintainable. I meticulously structured the code, employing best practices and modular design patterns. By adopting a systematic approach, I made the development process efficient and streamlined, resulting in a robust and scalable website.</p>
+          <p class="project-card-story">Meeting the client's expectations was paramount. I engaged in constant communication, actively listening to their vision and goals. Through collaborative discussions and feedback loops, I translated their requirements into tangible features and functionalities. It was an iterative process, fine-tuning every aspect to ensure the website aligned perfectly with their vision.</p>
+          <p class="project-card-story">As the project neared completion, the satisfaction of surpassing the client's expectations was immensely rewarding. The AstroLaunch Services website showcased cutting-edge research, awe-inspiring visuals, and a seamless user experience. It stood as a testament to the dedication, perseverance, and technical expertise invested in its creation.</p>
+          <p class="project-card-story">This project not only enabled me to demonstrate my skills in web development but also deepened my passion for space exploration. Join us in our quest to expand the horizons of human exploration, knowledge, and discovery. Together, we can shape a future where space is not only our final frontier but also a new frontier for growth, innovation, and the betterment of humanity.</p>
+          <!-- <div class="key-takeaways">
+            <h4>Key Takeaways:</h4>
+            <ol>
+              <li>Revolutionizing space exploration for a future beyond Earth</li>
+              <li>Pushing boundaries of technology, innovation, and human potential</li>
+              <li>Organized and efficient codebase for scalability and maintainability</li>
+              <li>Meeting client's expectations through effective communication</li>
+              <li>Showcasing cutting-edge research and awe-inspiring visuals</li>
+              <li>Inspiring passion for space exploration and cosmic discovery</li>
+            </ol>
+          </div> -->
+          <div class="project-gallery">
+            <img src="./images/portfolio/astrolaunch3.png" alt="Project 1 Image 3" loading="lazy">
+            <img src="./images/portfolio/astrolaunch4.png" alt="Project 1 Image 4" loading="lazy">
+          </div>
+        </div>
+        
+        <div id="project2" class="project-card">
+          <h3 class="project-card-title"><i class="fas fa-rocket project-card-title-icon"></i> Portfolio Website</h3>
+          <!-- <div class="project-gallery">
+            <img src="./images/portfolio/astrolaunch1.png" alt="Project 2 Image 1" loading="lazy">
+            <img src="./images/portfolio/astrolaunch2.png" alt="Project 2 Image 2" loading="lazy">
+          </div> -->
+          <!-- <a href="https://mellow-meerkat-678fcd.netlify.app/" class="view-button" target="_blank">Portfolio Website</a> -->
+          <h3 class="project-card-title"><i class="fas fa-book"></i> Story</h3>
+          <p class="project-card-story">Finishing! More projects coming quickly!</p>
+          <!-- <div class="key-takeaways">
+            <h4>Key Takeaways:</h4>
+            <ol>
+              <li>Revolutionizing space exploration for a future beyond Earth</li>
+              <li>Pushing boundaries of technology, innovation, and human potential</li>
+              <li>Organized and efficient codebase for scalability and maintainability</li>
+              <li>Meeting client's expectations through effective communication</li>
+              <li>Showcasing cutting-edge research and awe-inspiring visuals</li>
+              <li>Inspiring passion for space exploration and cosmic discovery</li>
+            </ol>
+          </div> -->
+          <!-- <div class="project-gallery">
+            <img src="./images/portfolio/astrolaunch3.png" alt="Project 2 Image 3" loading="lazy">
+            <img src="./images/portfolio/astrolaunch4.png" alt="Project 2 Image 4" loading="lazy">
+          </div> -->
+        </div>
+        <!-- <div id="project3" class="project-card">
+          <h3 class="project-card-title"><i class="fas fa-mobile-alt project-card-title-icon"></i> Mobile App Development</h3>
+          <div class="project-gallery">
+            <img src="project3-image1.jpg" alt="Project 3 Image 1">
+            <img src="project3-image2.jpg" alt="Project 3 Image 2">
+          </div>
+          <p class="project-card-description">A native mobile app developed for iOS and Android platforms, tailored to meet specific business needs. Built with intuitive user interfaces, seamless performance, and integration with various APIs to deliver a seamless and engaging mobile experience.</p>
+          <p class="project-card-story">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut eros nec sapien efficitur consectetur.</p>
+          <a href="project3-link" class="view-button" target="_blank">View Project</a>
+        </div>
+        <div id="project4" class="project-card">
+          <h3 class="project-card-title"><i class="fas fa-desktop project-card-title-icon"></i> Corporate Website Redesign</h3>
+          <div class="project-gallery">
+            <img src="project4-image1.jpg" alt="Project 4 Image 1">
+            <img src="project4-image2.jpg" alt="Project 4 Image 2">
+          </div>
+          <p class="project-card-description">A comprehensive redesign of a corporate website aimed at enhancing brand identity and user engagement. Incorporating modern design trends, streamlined navigation, and optimized content, resulting in an impactful online presence and improved conversion rates.</p>
+          <p class="project-card-story">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut eros nec sapien efficitur consectetur.</p>
+          <a href="project4-link" class="view-button" target="_blank">View Project</a>
+        </div>
+        <div id="project5" class="project-card">
+          <h3 class="project-card-title"><i class="fas fa-cogs project-card-title-icon"></i> Custom Web Application</h3>
+          <div class="project-gallery">
+            <img src="project5-image1.jpg" alt="Project 5 Image 1">
+            <img src="project5-image2.jpg" alt="Project 5 Image 2">
+          </div>
+          <p class="project-card-description">A bespoke web application developed from scratch to address unique business requirements. Combining advanced functionality, efficient data management, and an intuitive user interface to empower businesses with tailored solutions and increased productivity.</p>
+          <p class="project-card-story">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut eros nec sapien efficitur consectetur.</p>
+          <a href="project5-link" class="view-button" target="_blank">View Project</a>
+        </div> -->
+      </div>
+    </section>
+     
+
+    <div class="separator" id="contact-section"></div>   
+    
+    <section id="contact" class="contact-section">
+      <div class="contact-video">
+        <video autoplay loop muted>
+          <source src="./videos/1025537414-preview.mp4" type="video/mp4">
+          <!-- Add additional <source> elements for different video formats if needed -->
+        </video>
+      </div>
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form id="contactForm" action="your-form-action-url" method="post">
+          <div class="form-group">
+            <label for="name"><i class="fas fa-user"></i> Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone"><i class="fas fa-phone"></i> Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" required>
+          </div>
+          <div class="form-group">
+            <label for="message"><i class="fas fa-comment"></i> Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="button-container">
+            <button type="submit">Submit</button>
+            <button type="button" id="clearButton">Clear</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Bryce Cooper. All rights reserved.</p>
+  </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script><script src="https://kit.fontawesome.com/4e3a6a5a6d.js" crossorigin="anonymous"></script>
+<script>
+
+  /* Projects */
+  // Get project tabs and project cards
+  const projectTabs = document.querySelectorAll('.project-tabs li');
+  const projectCards = document.querySelectorAll('.project-card');
+
+  // Add click event listener to each project tab
+  projectTabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      // Remove 'active' class from all project tabs
+      projectTabs.forEach((tab) => {
+        tab.classList.remove('active');
+      });
+
+      // Add 'active' class to the clicked tab
+      tab.classList.add('active');
+
+      // Get the data-project value of the clicked tab
+      const project = tab.getAttribute('data-project');
+
+      // Show the corresponding project card and hide others
+      projectCards.forEach((card) => {
+        if (card.id === project) {
+          card.classList.add('active');
+        } else {
+          card.classList.remove('active');
+        }
+      });
+    });
+  });
+
+
+
+  /* Clear button */
+  var clearButton = document.getElementById("clearButton");
+  var form = document.getElementById("contactForm");
+
+  clearButton.addEventListener("click", function() {
+    form.reset();
+  });
+
+  /* Phone autoplaceholder */
+  $(document).ready(function() {
+    $("#phone").inputmask({
+      mask: "(999) 999-9999",
+      placeholder: "_",
+      definitions: {
+        "#": {
+          validator: "[0-9]",
+          cardinality: 1,
+          prevalidator: null,
+        },
+      },
+    }).on("keyup", function() {
+      var value = $(this).val().replace(/\D/g, "");
+      if (value.length > 10) {
+        value = value.substr(0, 10);
+        $(this).val(value);
+      }
+    });
+  });
+
+  $("#clearButton").on("click", function() {
+      $("#contactForm")[0].reset();
+    });
+
+
+  /* Contact Me functionality */
+  var contactButton = document.getElementById("contactButton");
+  var checkboxes = document.querySelectorAll('.question input[type="checkbox"]');
+
+  function updateContactButtonVisibility() {
+    var isChecked = false;
+    
+    checkboxes.forEach(function(checkbox) {
+      if (checkbox.checked) {
+        isChecked = true;
+        return;
+      }
+    });
+    
+    if (isChecked) {
+      contactButton.classList.remove("hidden");
+    } else {
+      contactButton.classList.add("hidden");
+    }
+  }
+
+  checkboxes.forEach(function(checkbox) {
+    checkbox.addEventListener("change", updateContactButtonVisibility);
+  });
+
+  document.getElementById("contactButton").addEventListener("click", function() {
+  var message = "I am interested in the following services:\n";
+  var checkboxes = document.querySelectorAll('.question input[type="checkbox"]');
+  
+  checkboxes.forEach(function(checkbox) {
+    if (checkbox.checked) {
+      var label = checkbox.nextElementSibling;
+      message += "- " + label.textContent + "\n";
+    }
+  });
+  
+  document.getElementById("message").value = message;
+  });
+</script>
+</html>
